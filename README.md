@@ -2,32 +2,32 @@
 - [meson](https://mesonbuild.com/)
 - [ninja](https://ninja-build.org/)
 
-# Compilation
-In the following commands build is a directory name, feel free to change it.
-## setup
+# Installation
+In the following commands `build` is a directory name, feel free to change it.
+## Prepare build environment
 ```bash
 meson setup build
 ```
 
-## build
+## Compilation
 ```bash
 cd build
 ninja
 ```
 
-## (optional) test
+## Automatic tests (optional)
 ```bash
 cd build
 ninja test
 ```
 
-## install
+## Install library
 ```bash
 cd build
 sudo ninja install
 ```
 
-## uninstall
+## Uninstall library
 ```bash
 cd build
 sudo ninja uninstall
