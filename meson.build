@@ -40,7 +40,7 @@ lib_ela = library(
 )
 
 ela_dep = declare_dependency(
-  link_whole: lib_ela,
+  link_with: lib_ela,
   include_directories: [ela_inc],
 )
 
