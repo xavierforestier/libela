@@ -1,9 +1,9 @@
-# Prerequisite
+# Prerequisites
 - [meson](https://mesonbuild.com/)
 - [ninja](https://ninja-build.org/)
 
 # Compilation
-build in the following commands is a directory name, feel free to change it.
+In the following commands build is a directory name, feel free to change it.
 ## setup
 ```bash
 meson setup build
